@@ -42,6 +42,6 @@ The students will:
 
 <p align="center">
   <a href="//ituacm.com" target="_blank">
-    <img src="https://ituacm.com/wp-content/uploads/2017/08/itu-logo.png">
+    <img src="https://ituacm.com/static/media/ituacm-logo-blue.86ea7d8d54489e9178fa.png">
   </a>
 </p>
