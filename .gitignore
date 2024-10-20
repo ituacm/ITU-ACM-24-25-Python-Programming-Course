@@ -1,0 +1,5 @@
+venv
+.venv
+temp*
+tmp*
+.DS_Store
