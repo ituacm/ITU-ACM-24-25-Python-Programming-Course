@@ -2,7 +2,7 @@
 
 # The loop continues until the password criteria are met
 pwd = input('Enter your password: ')
-while not (pwd.isalnum() and not pwd.isalpha() and len(pwd) >= 8):
+while not (pwd.isalnum() and not pwd.isalpha() and len(pwd) > 8):
     print("Password must be at least 8 characters and include a number.")
     pwd = input('Enter your password: ')
 print('Password accepted.')

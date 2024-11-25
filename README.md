@@ -26,9 +26,9 @@ The students will:
 
 |     #           | Topic                          | Instructor                        | Time - Place                        | Lecture Recordings
 | :----------------: | :-------------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------:
-| Week 1 | Introduction | [*Rojen Arda Şeşen*](https://github.com/rojenarda)| 31.10.2024 18:00| [Part 1](https://youtu.be/x76-wQa8Nds) [Part 2](https://youtu.be/FXNAb17pakQ)
-| Week 2 | Primitive Data Types and Control Flow | [*Rojen Arda Şeşen*](https://github.com/rojenarda)| 04.10.2024 18:00| |
-| Week 3 | Containers, Iterators and Generators | [*Rojen Arda Şeşen*](https://github.com/rojenarda)|  11.11.2024 18:00| |
+| Week 1 | Introduction | [*Rojen Arda Şeşen*](https://github.com/rojenarda)| 31.10.2024 18:00| [Part 1](https://youtu.be/x76-wQa8Nds) [Part 2](https://youtu.be/FXNAb17pakQ) |
+| Week 2 | Primitive Data Types and Control Flow | [*Rojen Arda Şeşen*](https://github.com/rojenarda)| 04.10.2024 18:00| [Part 1](https://youtu.be/ugWAeCKGWcU) [Part 2](https://youtu.be/MLdpWKQiMbI) |
+| Week 3 | Containers, Iterators and Generators | [*Rojen Arda Şeşen*](https://github.com/rojenarda)|  11.11.2024 18:00| [Part 1](https://www.youtube.com/watch?v=FhSU0liQvzk) [Part 2](https://www.youtube.com/watch?v=TeE5NQdZxCY) | 
 | Week 4 | Functions and File I/O | [*Rojen Arda Şeşen*](https://github.com/rojenarda)|  25.11.2024 18:00| |
 | Week 5 | Object Oriented Programming | [*Rojen Arda Şeşen*](https://github.com/rojenarda)|  02.12.2024 18:00| |
 | Week 6 | Wrap-up | [*Rojen Arda Şeşen*](https://github.com/rojenarda)|  09.12.2023 18:00| |
