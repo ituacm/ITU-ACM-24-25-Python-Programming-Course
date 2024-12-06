@@ -1,37 +1,42 @@
-from ListItem import ListItem
+from list_item import ListItem
 
-class List(object):
-    def __init__(self, value):
-        self.head = ListItem(value)
-        self.tail = self.head
-
+class List:
+    def __init__(self, list_item):
+        if isinstance(list_item, int):
+            list_item = ListItem(list_item)
+        else:
+            raise TypeError("Can only add nodes and integers to a list")
+        self.head = list_item
+        self.tail = list_item
+        
     def __str__(self):
-        temp = self.head
-        while temp is not None:
-            print(temp.value)
-            temp = temp.next
+        s = ''
+        cur = self.head
+        while cur != None:
+            s += (str(cur) + ' ')
+            cur = cur.next
+        
+        return s.strip()
+    
+    def __repr__(self):
+        return self.__str__()
 
-    def append(self, value):
-        new_item = ListItem(value)
-        self.tail.next = new_item
-        self.tail = new_item
-
-    def len(self):
-        len_list = 0
-        temp = self.head
-        while temp is not None:
-            len_list += 1
-            temp = temp.next
-        return len_list
+    def print_list(self):
+        print(self)
+    
+    def __len__(self):
+        l = 0
+        cur = self.head
+        while cur != None:
+            l += 1
+            cur = cur.next
+        return l
 
     def __getitem__(self, index):
-        if index >= self.len() or index < 0:
-            print("ERROR")
-        else:
-            temp = self.head
-            i = 0
-            while i < index:
-                temp = temp.next
-                i += 1
-            return temp.value
-
+        if len(self) <= index:
+            raise IndexError(f"List object has length {len(self)}, attepmted to reach index {index}")
+        cur = self.head
+        for _ in range(index):
+            cur = cur.next
+        
+        return cur
