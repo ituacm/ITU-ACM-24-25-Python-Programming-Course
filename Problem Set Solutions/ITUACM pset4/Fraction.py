@@ -63,7 +63,7 @@ class Fraction(object):
 
 # example usage to test
 fraction1 = Fraction(1, 2)  # create a Fraction object representing 1/2
-fraction2 = Fraction(2, 3)  # create a Fraction object representing 1/3
+fraction2 = Fraction(1, 3)  # create a Fraction object representing 1/3
 
 print("fraction 1:", fraction1)
 print("fraction 2:", fraction2)
